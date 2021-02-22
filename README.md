@@ -43,6 +43,9 @@ Find the file `index.js` and complete the tasks.
 Edit the `ReadMe` file with your answers.
 
 1. In your own words, define closure (1-2 sentences).
+
+Normally code will search for variables and functions locally in its current scope. If you ask it to look up a function that is not in its scope however, it can look up a scope to find an answer to its questions. 
+
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -64,8 +67,17 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+
+in the annonymus function it asks for the variable name in the string templet literal, and it has to search up to the parameter of function personalDice to find the answer.
+
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+
+the name and ' rolled a '  is always the same. but the {newRoll} will change since its randomized.
+
 c. What is the lexical scope of `newRoll`? 
+
+
+window scope? 
 
 
 ### Task 3 - Stretch Goals
